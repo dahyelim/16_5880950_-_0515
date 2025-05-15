@@ -8,7 +8,7 @@ typedef struct ListNode {
 } listNode;
 
 typedef struct {
-    int follow; // 사용하지 않아도 무방함 (기능 요구 없음)
+    int follow; 
     listNode* Node_h;
     listNode* Node_tail;
 } linkedList_h;
